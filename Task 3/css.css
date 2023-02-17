@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: rgb(237 28 28);
+    font: bold 15px verdana;
+}
+
+li>a:hover {
+    color: rgb(164 156 156);
+}
+
+ul>h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px gray;
+    letter-spacing: 5px;
+
+}
+
+ul>h1:hover {
+    text-shadow: -1px -1px 1px black, 1px 1px 1px gray;
+    cursor: pointer;
+}
+
+.intro {
+    background-image: url(images/laptop_top.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro>h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.intro>button {
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: none;
+    font: bold 15px tahoma;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, rgb(174 214 248), rgb(85 103 243));
+}
+
+.intro>button:hover {
+    background-image: linear-gradient(to right, rgb(174 214 248), rgb(85 103 243));
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+.iti {
+    width: 100%;
+    height: 70px;
+    font-family: myFirstFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+
+
+.cont {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.contt {
+    width: 50%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.map {
+    width: 50%;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+.u {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ui-first {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+
+
+.ui-second {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    margin-top: 30px;
+    justify-content: space-between;
+
+
+}
+
+li {
+    text-align: center;
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: antiquewhite;
+    padding: 10px;
+
+
+}
+
+
+.check {
+    width: 500px;
+    height: 100px;
+    margin-left: 80px;
+    font-size: 25px;
+
+}
+
+input {
+    margin: 20px;
+}
+
+
+section {
+    width: 100%;
+    height: 150px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+section div span {
+    font-size: 35px;
+}
+
+
+.pics 
+{
+    width: 50px;
+    height: 20px;  
+    display: flex;
+    margin: 10px;
+}
+
+.pics img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}

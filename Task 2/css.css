@@ -1,0 +1,224 @@
+@media all and (orientation:landscape) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 80vw;
+        height: 500px;
+        border: 2px solid red;
+        margin: auto;
+        box-shadow: yellow 10px 10px 10px, yellow -10px -10px 10px;
+        box-shadow: green 10px 10px 20px inset, green -10px -10px 20px inset;
+        margin-top: 50px;
+        border-radius: 20px;
+        transition: transform 2s;
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container:hover {
+        transform: skew(15deg);
+    }
+
+    .container:active {
+        transform: scale(0.5);
+        box-shadow: red 10px 10px 10px, red -10px -10px 10px;
+
+    }
+
+
+    .div1 {
+        width: 30%;
+        height: 460px;
+        background-color: yellow;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 7px;
+        overflow: auto;
+        border: 5px solid black;
+        border-radius: 20px;
+        column-count: 3;
+        column-rule: 3px solid red;
+        column-gap: 20px;
+        resize: both;
+        opacity: 5px;
+        overflow-x: scroll;
+
+
+    }
+
+    .div2 {
+
+        width: 60%;
+        height: 460px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+        resize: both;
+        text-align: center;
+        /*overflow-y: scroll  ;
+        overflow-x: hidden;*/
+        overflow: auto;
+        box-shadow: gray 10px 10px 20px inset, gray -10px -10px 20px inset;
+        /* display: flex; */
+        align-items: center;
+    }
+
+    span:hover {
+        text-decoration: underline;
+    }
+
+    .div1:active mark {
+        text-decoration: underline;
+        color: aqua;
+    }
+
+    mark {
+        color: red;
+    }
+
+    img {
+        border: 2px solid blue;
+        width: 20%;
+        height: 90px;
+        transition: transform 1s;
+    }
+
+    img:hover {
+
+
+        transform: scale(1.2, 1.2);
+        border: 2px double blueviolet;
+
+
+    }
+
+
+    img:active {
+        transform: scale(3);
+        box-shadow: red 10px 10px 10px, red -10px -10px 10px;
+
+    }
+
+
+    .dd {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+}
+
+
+
+/* ---------------------------------Portrait--------------------------------------- */
+
+
+@media all and (orientation:portrait) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 80vw;
+        height: 500px;
+        border: 2px solid red;
+        margin: auto;
+        box-shadow: yellow 10px 10px 10px, yellow -10px -10px 10px;
+        box-shadow: green 10px 10px 20px inset, green -10px -10px 20px inset;
+        margin-top: 50px;
+        border-radius: 20px;
+        transition: transform 2s;
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container:hover {
+        transform: skew(0deg);
+    }
+
+    .container:active {
+        transform: scale(0.5);
+        box-shadow: red 10px 10px 10px, red -10px -10px 10px;
+
+    }
+
+
+    .div1 {
+        width: 30%;
+        height: 460px;
+        background-color: yellow;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 7px;
+        overflow: auto;
+        border: 5px solid black;
+        border-radius: 20px;
+        resize: both;
+        opacity: 5px;
+        overflow-x: scroll;
+    }
+
+    .div2 {
+
+        width: 60%;
+        height: 460px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+        resize: both;
+        text-align: center;
+        /*overflow-y: scroll  ;
+        overflow-x: hidden;*/
+        overflow: auto;
+        box-shadow: gray 10px 10px 20px inset, gray -10px -10px 20px inset;
+        /* display: flex; */
+        align-items: center;
+    }
+
+    span:hover {
+        text-decoration: underline;
+    }
+
+    .div1:active mark {
+        text-decoration: underline;
+        color: aqua;
+    }
+
+    mark {
+        color: red;
+    }
+
+    img {
+        border: 2px solid blue;
+        width: 20%;
+        height: 90px;
+        transform: rotate(-30deg);
+        transition:transform 1s;
+    }
+
+    img:hover {
+
+        transform: scale(1.2, 1.2);
+        border: 2px double blueviolet;
+    }
+
+    img:active {
+        transform: scale(2.5);
+        box-shadow: red 10px 10px 10px, red -10px -10px 10px;
+        z-index: 999;
+    }
+
+
+    .dd {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+}
