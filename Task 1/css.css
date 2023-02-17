@@ -1,0 +1,52 @@
+@keyframes sectionanimation {
+    0% {
+        left: 20px;
+        top: 150px;
+        background-color: red
+    }
+
+    25% {
+        left: 300px;
+        top: 150px;
+        background-color: blue
+    }
+
+    50% {
+        left: 300px;
+        top: 300px;
+        background-color: green
+    }
+
+    75% {
+        left: 20px;
+        top: 300px;
+        background-color: yellow
+    }
+}
+
+#sec {
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 150px;
+    border: 2px solid black;
+    position: absolute;
+    background-color: pink;
+    transition: transform 2s;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    cursor: pointer
+}
+
+#sec:hover {
+    transform: scale(1.4, 1.4);
+    animation-play-state: paused;
+}
