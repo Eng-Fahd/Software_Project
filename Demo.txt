@@ -7,5 +7,5 @@ git checkout branchname // to switch to this branch
 git log // show commit history of current branch
 git diff // to show unstaged files
 git show  // it works like git log + diff togther also in human formate
-git pull and after git push
+git pull and after git push 
 git rebase and after git merge // for best practice to rewrite the history this will not make any conflict like git merge if any one had made change to this files without git pull
